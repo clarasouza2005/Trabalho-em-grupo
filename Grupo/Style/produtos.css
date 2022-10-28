@@ -1,0 +1,126 @@
+body{
+    background-image: url(../Img/Fundo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    position: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    margin-left: -10px;
+    border: solid #F0F4EF;
+    margin-top: -3px;
+}
+
+.menu, ul{
+    font-size: 15px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu, ul, li, a {
+display: flex;
+justify-content: center;
+text-decoration: none;
+margin-right: 80px;
+background-color: #344966;
+color: aliceblue;
+}
+
+
+.menu ul li a:hover{
+    color: #BFCC94;
+}
+@media(max-width: 600px){
+    .menu, ul, li, a {
+        width: 100%;
+        height: auto;
+        margin: 0;
+
+    }
+}
+
+.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9,.p10{
+    display: inline-block;
+    text-align: center;
+    margin-left: 65px;
+    vertical-align: bottom;
+    height: 220px;
+    width: 200px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    margin-bottom: 230px;
+}
+
+img{
+    border-radius: 12px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F0F4EF;
+}
+
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #BFCC94;
+    font-size: 25px;
+    margin-top: 25px;
+    /*text-shadow: 1px 1px 3px black;*/
+}
+
+h5{
+    color: #f03309;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+
+.nomeFone,.nomeWebcam{
+    margin-bottom: -20px;
+}
+
+.precoFone{
+    margin-top: 25px;
+}
+
+img {
+    height: 220px;
+    width: 200px;
+    object-fit:cover;
+}
+
+.imp{
+    object-fit:contain;
+}
+
+input {
+    margin-top: -15px;
+    border-color: #165e99;
+    border-radius: 10px;
+    color: #344966;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #F0F4EF;
+    border-width: 3px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+input:hover{
+    color: #233143;
+    background-color:rgb(5, 188, 42);
+    border-width: 3px;
+}
+input:active{
+    color: #F0F4EF;
+    background-color: rgb(3, 100, 23);
+    border-color: #B4CDED;
+}

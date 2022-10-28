@@ -1,0 +1,66 @@
+body{
+    background-image: url(../Img/350.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(248, 242, 242);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    font-size: 20px;
+    text-shadow: 5px 5px 10px black;  
+}
+div{
+    margin-top: 200px;
+    margin-right:20px;
+    margin-left:20px;
+    height: 250px;
+    width: 400px;
+    background-color: rgb(8, 100, 153);
+    text-align: center;
+    border-radius: 100px;
+    padding:20PX; 
+}
+    
+section{
+    display: flex;
+}
+
+p{
+    margin-top: 2px;
+    margin-bottom:2px;
+    margin-left: 2px;
+    font-size: 17px;
+}
+ul{
+    text-align: left;
+    font-size: 17px;
+}
+.menu{
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    margin-left: -10px;
+    border: #f0f4ef;
+    margin-top: -3px;
+}
+.menu, .guias{
+    font-size: 15px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu, .guias, .l1, a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 80px;
+    background-color: rgb(8, 100, 153);
+    color: aliceblue;
+}
+.menu .guias, .l1, a:hover{
+    color: #bfcc94;
+}
